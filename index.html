@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Allain Roblox</title>
+  <style>
+    /* Basic CSS Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Body styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #262626;
+      color: #333;
+      line-height: 1.6;
+      padding: 0 20px;
+      position: relative;
+    }
+
+    /* Container */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    /* Video Background */
+    .video-background {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1; /* Behind content */
+      object-fit: cover; /* Cover entire background */
+      opacity: 0.5; /* Control opacity */
+    }
+
+    /* Header styles */
+    header {
+      background: rgba(0, 0, 0, 0.5); /* Transparent background for visibility */
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2em;
+    }
+
+    /* Hero Section */
+    .hero {
+      text-align: center;
+      padding: 50px 20px;
+      color: #fff;
+      background: rgba(0, 0, 0, 0.7); /* Dark transparent layer */
+    }
+
+    .hero h2 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+
+    .hero .blank {
+        background-color: #ffffff00;
+
+    }
+
+    .hero a {
+      background-color: #ff5722;
+      color: #fff;
+      padding: 15px 30px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 1.2em;
+    }
+
+    .hero a:hover {
+      background-color: #e64a19;
+    }
+
+    /* Features Section */
+    .features {
+      display: flex;
+      flex-direction: column; /* Stack vertically */
+      margin: 50px 0;
+      width: 100%;
+    }
+
+    .feature {
+      background-color: rgba(255, 255, 255, 0.7); /* Slight transparency for background */
+      padding: 20px;
+      text-align: center;
+      width: 100%; /* Full width */
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px; /* Space between cards */
+    }
+
+    .feature h3 {
+      margin-bottom: 15px;
+    }
+
+    .feature p {
+      font-size: 1.1em;
+    }
+
+    /* Footer styles */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: #fff;
+    }
+
+    /* Media Queries */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2em;
+      }
+
+      .hero h2 {
+        font-size: 2em;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .hero h2 {
+        font-size: 1.5em;
+      }
+
+      .hero a {
+        padding: 10px 20px;
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Video Background -->
+  <video autoplay muted loop class="video-background">
+    <source src="me.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <header>
+    <h1>Allain Roblox</h1>
+  </header>
+
+  <section class="hero">
+    <p>Tingkatkan pengalaman bermainmu dengan diamond Roblox berkualitas! Jadilah juara di setiap permainan.</p>
+    <a href="#features">Lihat harga</a>
+  </section>
+
+  <div class="container">
+    <section class="features" id="features">
+      <div class="feature">
+        <h1>Harga PSX</h1>
+        <table style="width: 100%; border-collapse: collapse; margin: 0 auto; text-align: center;">
+          <tr>
+            <td style="padding: 10px;">HUGE</td>
+            <td style="padding: 10px;">Rp4,5k</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px;">110B</td>
+            <td style="padding: 10px;">Rp10k</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px;">220B</td>
+            <td style="padding: 10px;">Rp20k</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px;">500B</td>
+            <td style="padding: 10px;">Rp40k</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px;">1T</td>
+            <td style="padding: 10px;">Rp80k</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+  </div>
+
+  <section class="hero">
+    <p>Bayar dengan QRIS lebih PRAKTIS</p>
+    <a href="qris.png" download="qris.png">DOWNLOAD QRIS</a>
+    <br><br><br><br><br><br><br>
+    <a class="blank" href="testimoni.html" download="qris.png">- lihat testimoni rakyat jelata -</a>
+    <br><br><br>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Your Company Name</p>
+  </footer>
+</body>
+</html>
